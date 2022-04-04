@@ -1,0 +1,17 @@
+server:
+  app-version: 1.0.1
+  port: 8000
+  mode: dev
+mysql:
+  Host: db
+  Port: 3306
+  User: esportal-twitter
+  Password: esportal-twitter-password
+  DBname: twitter
+  MaxOpenConns: 10
+  MaxIdleConns: 10
+  MaxLifetime: 5 #minutes
+Logger:
+  Level: debug
+  Output: logs
+  Formatter: text
